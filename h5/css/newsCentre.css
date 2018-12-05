@@ -1,0 +1,32 @@
+div.wrap{width:100%;position:relative;height:auto;background:#000;}
+
+/*中部css*/
+div.wrap>.main{width:100%;background:#000;}
+div.wrap>.main>.img{position:relative;opacity:0}
+div.wrap>.main>.img>img{width:100%;height:246px;}
+
+div.wrap>.main>.list{height:76px;border-bottom:1px solid #2B2A2A;}
+div.wrap>.main>.list>ul{width:320px;height:76px;margin:0 auto;}
+div.wrap>.main>.list>ul>li{margin:0 auto;float:left;}
+div.wrap>.main>.list>ul>li>a{display:block;height:76px;line-height:76px;padding:0px 25px;color:#fff;font-weight:600;}
+div.wrap>.main>.list>ul>li:first-child>a{color:#ec0c0c;}
+div.wrap>.main>.list>ul>li>a:hover{color:#ec0c0c;}
+
+div.wrap>.main>.news_list{height:912px;padding:30px 0px;border-top:1px solid #2B2A2A;}
+div.wrap>.main>.news_list>ul{width:1170px;height:892px;margin:0 auto;}
+div.wrap>.main>.news_list>ul>li{height:175px;padding-bottom:30px;border-bottom:1px solid #2B2A2A;margin-bottom:30px;}
+div.wrap>.main>.news_list>ul>li>div{float:left;}
+div.wrap>.main>.news_list>ul>li>.newdata{width:80px;height:175px;margin-right:20px;text-align:center;color:#999;}
+div.wrap>.main>.news_list>ul>li>.newdata>h4{height:39px;line-height:39px;font:600 25px 宋体;}
+div.wrap>.main>.news_list>ul>li>.newdata>p{height:25px;line-height:25px;font-size:14px;}
+div.wrap>.main>.news_list>ul>li>.newimg{width:200px;height:175px;margin-right:20px;overflow:hidden;}
+div.wrap>.main>.news_list>ul>li>.newimg>img{width:200px;height:133px;transition:all 1s;}
+div.wrap>.main>.news_list>ul>li>.newimg>img:hover{transform: scale(1.1)}
+div.wrap>.main>.news_list>ul>li>.newname{width:836px;height:175px;padding:0px 7px;}
+div.wrap>.main>.news_list>ul>li>.newname>h3{height:19px;line-height:19px;transition:all 1s;}
+div.wrap>.main>.news_list>ul>li>.newname>h3>a{color:#fff;}
+div.wrap>.main>.news_list>ul>li>.newname>h3:hover{transform:translateX(10px);}
+div.wrap>.main>.news_list>ul>li>.newname>h3:hover>a{border-bottom:1px solid #fff;}
+div.wrap>.main>.news_list>ul>li>.newname>p{height:88px;padding:10px 0px;color:#999;line-height:22px;font-size:14px;margin-bottom:14px;}
+div.wrap>.main>.news_list>ul>li>.newname>a{display:block;width:86px;height:32px;border:1px solid #ec0c0c;color:#ec0c0c;line-height:32px;text-align:center;font-size:14px;}
+div.wrap>.main>.news_list>ul>li>.newname>a:hover{background:#ec0c0c;color:#fff;}

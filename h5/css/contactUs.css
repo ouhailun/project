@@ -1,0 +1,21 @@
+div.wrap{width:100%;position:relative;height:auto;background:#000;}
+
+/*中部css*/
+div.wrap>.main{width:100%;background:#000;}
+div.wrap>.main>.img{position:relative;opacity:0;}
+div.wrap>.main>.img>img{width:100%;height:246px;}
+
+div.wrap>.main>.list{height:76px;border-bottom:1px solid #2B2A2A;}
+div.wrap>.main>.list>ul{width:320px;height:76px;margin:0 auto;}
+div.wrap>.main>.list>ul>li{margin:0 auto;float:left;}
+div.wrap>.main>.list>ul>li>a{display:block;height:76px;line-height:76px;padding:0px 25px;color:#fff;font-weight:600;}
+div.wrap>.main>.list>ul>li:first-child>a{color:#ec0c0c;}
+div.wrap>.main>.list>ul>li>a:hover{color:#ec0c0c;}
+
+div.wrap>.main>.map{width:1289px;height:440px;padding:30px;}
+div.wrap>.main>.map>img{width:1289px;height:440px;}
+
+
+
+
+
